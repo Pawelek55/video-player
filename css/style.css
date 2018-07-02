@@ -31,7 +31,7 @@ body{
     height: 50px;
     display: flex;
     flex-wrap: wrap;
-    transform: translateY(35px);
+    transform: translateY(38px);
     transition: all 0.4s
 }
 
@@ -42,12 +42,13 @@ body{
 
 .progress{
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .progress-slider{
     background-color: orangered;
-    width: 50%;
-    height: 15px;
+    width: 0;
+    height: 12px;
     cursor: ew-resize;
 }
 
@@ -62,6 +63,11 @@ body{
     border: none;
     cursor: pointer;
     color: #fff;
+}
+
+.fullscreen{
+    width: 1920px;
+    height: 1080px;
 }
 
 /*input typu range*/
